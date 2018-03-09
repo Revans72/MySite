@@ -83,7 +83,15 @@ body {
   border: none;
 }
 
-.card-img-top {
+.btn-primary:hover {
+  background-color: #4a018a;
+}
+
+.btn-primary:focus {
+  background-color: #4a018a;
+}
+
+.img-fluid {
   margin-bottom: 10px;
 }
 
