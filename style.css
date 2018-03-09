@@ -3,40 +3,13 @@ body {
   background-repeat: no-repeat;
 }
 
-.heading1 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-}
-
-.p {
-  font-family: 'Roboto', sans-serif;
-  display: block;
-  color: white;
-}
-
-#footer {
-  font-family: 'Roboto', sans-serif;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  color: white;
-  opacity: 0.7;
-}
+/* Nav bar  */
 
 .nav {
   display: flex;
   background: rgba(230, 230, 230, 0.7);
   padding: 10px;
   border-radius: 4px;
-}
-
-.jumbotron {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  background: rgba(230, 230, 230, 0.7);
 }
 
 .nav-pills .nav-link.active {
@@ -46,5 +19,65 @@ body {
 }
 
 .nav-pills .nav-link {
-  color: #5277ae;
+  color: #fff;
+}
+
+/* Nav Bar end */
+
+/* Jumbotron */
+
+.jumbotron {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background: rgba(230, 230, 230, 0.7);
+}
+
+.heading1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.p {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  color: #fff;
+}
+
+#button {
+  border-radius: 4px;
+  background-color: #5277ae;
+  color: #fff;
+  border: none;
+}
+
+/* Jumbotron End*/
+
+/* Cards */
+
+.card {
+  padding: 5px;
+  margin-bottom: 15px;
+  background: rgba(230, 230, 230, 0.7);
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #5277ae;
+  border: none;
+}
+
+/* Cards end */
+
+#footer {
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  opacity: 0.7;
 }
