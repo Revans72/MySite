@@ -71,6 +71,8 @@ body {
 
 /* Cards end */
 
+/* footer */
+
 #footer {
   font-family: 'Roboto', sans-serif;
   position: fixed;
@@ -81,3 +83,5 @@ body {
   color: #fff;
   opacity: 0.7;
 }
+
+/* footer end */
