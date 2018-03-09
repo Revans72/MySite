@@ -1,6 +1,6 @@
 body {
   background-image: url("BG.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 /* Nav bar  */
@@ -19,6 +19,7 @@ body {
 }
 
 .nav-pills .nav-link {
+  font-family: 'Roboto', sans-serif;
   color: #fff;
 }
 
@@ -45,10 +46,12 @@ body {
 }
 
 #button {
+  font-family: 'Roboto', sans-serif;
   border-radius: 4px;
   background-color: #5277ae;
   color: #fff;
   border: none;
+  padding: 6px 16px 6px;
 }
 
 /* Jumbotron End*/
@@ -56,7 +59,7 @@ body {
 /* Cards */
 
 .card {
-  padding: 5px;
+  padding: 15px;
   margin-bottom: 15px;
   background: rgba(230, 230, 230, 0.7);
   border: none;
@@ -64,18 +67,22 @@ body {
 }
 
 .btn-primary {
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   background-color: #5277ae;
   border: none;
+}
+
+.card-img-top {
+  margin-bottom: 10px;
 }
 
 /* Cards end */
 
 /* footer */
 
-#footer {
+.footer {
   font-family: 'Roboto', sans-serif;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
