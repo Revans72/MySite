@@ -7,20 +7,29 @@ body {
 
 .nav {
   display: flex;
-  background: rgba(230, 230, 230, 0.7);
+  background: rgba(4, 4, 4, 0.8);
   padding: 10px;
   border-radius: 0px 0px 4px 4px;
+  border: 2px solid #7e00ec;
 }
 
 .nav-pills .nav-link.active {
   color: #fff;
   cursor: default;
-  background-color: #5277ae;
+  background-color: #4a018a;
 }
 
 .nav-pills .nav-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #fff;
+}
+
+.nav-pills .nav-link.active:hover {
+  background-color: #4a018a;
+}
+
+.nav-pills .nav-link.active:focus {
+  background-color: #4a018a;
 }
 
 /* Nav Bar end */
@@ -31,24 +40,25 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 4px;
-  background: rgba(230, 230, 230, 0.7);
+  border: 2px solid #7e00ec;
+  background: rgba(4, 4, 4, 0.8);
 }
 
 .heading1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
 }
 
 .p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   display: block;
   color: #fff;
 }
 
 #button {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   border-radius: 4px;
-  background-color: #5277ae;
+  background-color: #4a018a;
   color: #fff;
   border: none;
   padding: 6px 16px 6px;
@@ -61,15 +71,15 @@ body {
 .card {
   padding: 15px;
   margin-bottom: 15px;
-  background: rgba(230, 230, 230, 0.7);
-  border: none;
+  background: rgba(4, 4, 4, 0.8);
+  border: 2px solid #7e00ec;
   border-radius: 4px;
 }
 
 .btn-primary {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #fff;
-  background-color: #5277ae;
+  background-color: #4a018a;
   border: none;
 }
 
@@ -77,18 +87,29 @@ body {
   margin-bottom: 10px;
 }
 
+.card-title {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.card-text {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
 /* Cards end */
 
 /* footer */
 
 .footer {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
   color: #fff;
-  background: rgba(230, 230, 230, 0.7);
+  background: rgba(4, 4, 4, 0.8);
+  border: 2px solid #7e00ec;
   border-radius: 4px 4px 0px 0px;
   padding: 10px;
 }
