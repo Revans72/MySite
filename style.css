@@ -9,7 +9,7 @@ body {
   display: flex;
   background: rgba(230, 230, 230, 0.7);
   padding: 10px;
-  border-radius: 4px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .nav-pills .nav-link.active {
@@ -88,7 +88,13 @@ body {
   width: 100%;
   text-align: center;
   color: #fff;
-  opacity: 0.7;
+  background: rgba(230, 230, 230, 0.7);
+  border-radius: 4px 4px 0px 0px;
+  padding: 10px;
+}
+
+.footer p {
+  margin-bottom: 0px;
 }
 
 /* footer end */
