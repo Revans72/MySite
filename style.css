@@ -1,6 +1,8 @@
 body {
   background-image: url("BG.jpg");
   background-repeat: no-repeat;
+  min-height: 75rem;
+  padding-top: 4.5rem;
 }
 
 .heading1 {
@@ -26,5 +28,5 @@ body {
 }
 
 #button{
-  
+
 }
