@@ -41,6 +41,10 @@ body {
   position: relative;
 }
 
+.carousel-inner>.carousel-item>img {
+  margin: auto;
+}
+
 /* Carosel end   */
 
 /* Jumbotron */
