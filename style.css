@@ -45,6 +45,10 @@ body {
   margin: auto;
 }
 
+.carousel-caption {
+  font-family: 'Raleway', sans-serif;
+}
+
 /* Carosel end   */
 
 /* Jumbotron */
