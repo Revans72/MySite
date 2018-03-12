@@ -33,6 +33,10 @@ body {
   background-color: #4a018a;
 }
 
+.navbar-brand{
+  background-color: white;
+}
+
 /* Nav Bar end */
 
 /* Carosel  */
