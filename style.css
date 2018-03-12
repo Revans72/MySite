@@ -33,8 +33,14 @@ body {
   background-color: #4a018a;
 }
 
-.navbar-brand{
-  background-color: white;
+.navbar-brand {
+  background-color: #7e00ec;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+#logo {
+  height: 30px;
 }
 
 /* Nav Bar end */
