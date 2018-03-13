@@ -6,8 +6,8 @@ body {
 
 /* Nav bar  */
 
-.nav {
-  display: flex;
+.navbar {
+  /* display: flex; */
   background: rgba(4, 4, 4, 0.8);
   padding: 10px;
   border-radius: 0px 0px 4px 4px;
