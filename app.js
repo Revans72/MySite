@@ -7,4 +7,4 @@
 
 setTimeout(function() {
     $('#myModal').modal();
-}, 2000);
+}, 3000);
