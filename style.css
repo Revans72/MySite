@@ -101,7 +101,7 @@ body {
 /* Modal */
 
 .modal-content {
-  background-color: black;
+  background-color: #111;
   border: 2px solid #7e00ec;
   border-radius: 4px;
 }
