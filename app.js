@@ -1,6 +1,10 @@
 //Javascript stuff
 
-function myFunction() {
-  document.querySelector("#button");
-  window.alert('SPACE!!!');
-}
+// function myFunction() {
+//   document.querySelector("#button");
+//   window.alert('SPACE!!!');
+// }
+
+$(window).on('load',function(){
+    $('#myModal').modal('show');
+});
