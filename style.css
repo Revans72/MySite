@@ -156,7 +156,7 @@ body {
   background-color: #4a018a;
 }
 
-.img-fluid {
+.card-img-top {
   margin-bottom: 10px;
   width: fit-content;
 }
