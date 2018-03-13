@@ -98,6 +98,39 @@ body {
 
 /* Jumbotron End*/
 
+/* Modal */
+
+.modal-content {
+  background-color: black;
+  border: 2px solid #7e00ec;
+  border-radius: 4px;
+}
+
+.modal-title {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.modal-header {
+  border-bottom: : 2px solid #7e00ec;
+}
+
+.modal-footer {
+  border-top: 2px solid #7e00ec;
+}
+
+.modal-body {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.close {
+  color: white;
+  opacity: 1;
+}
+
+/* Modal End */
+
 /* Cards */
 
 .card {
