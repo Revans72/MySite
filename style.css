@@ -15,6 +15,10 @@ body {
   margin-bottom: 18px;
 }
 
+.navbar-toggler {
+  background-color: #4a018a;
+}
+
 .nav-pills .nav-link.active {
   color: #fff;
   cursor: default;
