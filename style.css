@@ -175,6 +175,10 @@ body {
   color: white;
 }
 
+.img-fluid {
+  margin-bottom: 5px;
+}
+
 /* Cards end */
 
 /* footer */
